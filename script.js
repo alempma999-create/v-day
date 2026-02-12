@@ -13,7 +13,7 @@ const noMessages = [
     "Ne",
     "Jesi sigurna? 🤔",
     "Slatkice molim te... 🥺",
-    "Ako kažeš ne,biću veoma tužan...",
+    "Pritisi ne ...🥲",
     "Biću veoma tužan... 😢",
     "Molim te??? 💔",
     "Nemoj to da mi radiš...",
@@ -22,7 +22,7 @@ const noMessages = [
 ]
 
 const yesTeasePokes = [
-    "try saying no first... Siguran sam da želiš da znaš šta će se desiti 😏",
+    "Moj savet je da pritisneš ne... Siguran sam da želiš da znaš šta će se desiti 😏",
     "Pritisni ne ako smeš 👀",
     "Grešiš 😈",
     "Pritisni ne,veruj mi 😏"
@@ -35,8 +35,8 @@ let runawayEnabled = false
 let musicPlaying = true
 
 const catGif = document.getElementById('cat-gif')
-const yesBtn = document.getElementById('yes-btn')
-const noBtn = document.getElementById('no-btn')
+const yesBtn = document.getElementById('da-btn')
+const noBtn = document.getElementById('ne-btn')
 const music = document.getElementById('bg-music')
 
 // Autoplay: audio starts muted (bypasses browser policy), unmute immediately
@@ -73,7 +73,7 @@ function handleYesClick() {
         showTeaseMessage(msg)
         return
     }
-    window.location.href = 'yes.html'
+    window.location.href = 'da.html'
 }
 
 function showTeaseMessage(msg) {
