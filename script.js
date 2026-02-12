@@ -13,7 +13,7 @@ const noMessages = [
     "Ne",
     "Jesi sigurna? 🤔",
     "Slatkice molim te... 🥺",
-    "Pritisi ne ...🥲",
+    "Pritisni ne ...🥲",
     "Biću veoma tužan... 😢",
     "Molim te??? 💔",
     "Nemoj to da mi radiš...",
@@ -35,8 +35,8 @@ let runawayEnabled = false
 let musicPlaying = true
 
 const catGif = document.getElementById('cat-gif')
-const yesBtn = document.getElementById('da-btn')
-const noBtn = document.getElementById('ne-btn')
+const yesBtn = document.getElementById('yes-btn')
+const noBtn = document.getElementById('no-btn')
 const music = document.getElementById('bg-music')
 
 // Autoplay: audio starts muted (bypasses browser policy), unmute immediately
